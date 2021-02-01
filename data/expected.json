@@ -1,0 +1,41 @@
+{
+  "addRemoveElements": {
+    "header" : "Add/Remove Elements",
+    "addBtn" : "Add Element",
+    "deleteBtn" : "Delete"
+  },
+  "dynamicControls" : {
+    "header" : "Dynamic Controls",
+    "paragraph" : "This example demonstrates when elements (e.g., checkbox, input field, etc.) are changed asynchronously.",
+    "subheaderRemoveAdd" : "Remove/add",
+    "removeBtn" : "Remove",
+    "addBtn" : "Add",
+    "removeMessage" : "It's gone!",
+    "addMessage" : "It's back!",
+    "checkbox" : "A checkbox",
+    "subheaderEnableDisable" : "Enable/disable",
+    "disableBtn" : "Disable",
+    "enableBtn" : "Enable",
+    "disableMessage" : "It's disabled!",
+    "enableMessage" : "It's enabled!"
+  },
+  "loginPage" : {
+    "header" : "Login Page",
+    "subheader" : "This is where you can log into the secure area. Enter tomsmith for the username and SuperSecretPassword! for the password. If the information is wrong you should see error messages.",
+    "username" : "Username",
+    "password" : "Password",
+    "login" : "Login"
+  },
+  "notificationMessage" : {
+    "header" : "Notification Message",
+    "link" : "Click here"
+  },
+  "phoneInput" : {
+    "withoutCountrySelect" : "+55 55 5555 55",
+    "nationalFormat" : "(555) 555-5555",
+    "international" : "555 555 5555",
+    "withCountryCallingCode" : "+1 555 555 5555",
+    "defaultCountryUS" : "(555) 555-5555",
+    "noCountry" : "+55 55 5555 55"
+  }
+}

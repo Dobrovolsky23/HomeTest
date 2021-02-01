@@ -1,0 +1,48 @@
+{
+  "addRemoveElements" : {
+    "header" : "h3",
+    "addElementBtn" : "[onclick='addElement()']",
+    "deleteBtn" : "[onclick='deleteElement()']"
+  },
+  "dynamicControls" : {
+    "header" : "h4",
+    "p" : "p",
+    "subheaderRemoveAdd" : "//h4[contains(text(),'Remove/add')]",
+    "checkbox" : "#checkbox",
+    "loading" : "#loading",
+    "removeBtn" : "//button[@onclick='swapCheckbox()']",
+    "subheaderEnableDisable" : "//h4[contains(text(),'Enable/disable')]",
+    "inputField" : "//input[@type='text']",
+    "enableBtn" : "//button[@onclick='swapInput()']",
+    "message" : "#message"
+  },
+  "loginPage" : {
+    "header" : "h2",
+    "subheader" : "h4.subheader",
+    "usernameLabel" : "//label[@for='username']",
+    "usernameIF" : "#username",
+    "passwordLabel" : "//label[@for='password']",
+    "passwordIF" : "#password",
+    "closeBtn" : ".close",
+    "loginBtn" : ".fa-sign-in",
+    "messageSuccess" : ".flash.success",
+    "messageFail" : ".flash.error",
+    "logoutBtn" : ".icon-signout"
+  },
+  "notificationMessages" : {
+    "header" : "h3",
+    "link": "a[href='/notification_message']",
+    "message" : "#flash",
+    "closeBtn" : ".close"
+  },
+  "phoneInput" : {
+    "withoutCountrySelect" : "//h1[text()='Summary']/../form/input",
+    "nationalFormat" : "//h1/*[contains(text(), 'country=')]/../../form/input",
+    "withCountryCallingCode" : "//h1/*[contains(text(), 'withCountryCallingCode')]/../../form/input",
+    "international" : "//h1/*[contains(text(), 'international')]/../../form/input",
+    "defaultCountryUS" : "//h1/*[contains(text(), 'defaultCountry')]/../../form/input",
+    "noCountry" : "//h1[contains(text(), 'No')]/../form/input",
+    "addingCountrySelect" : "//h1[text()='Adding country ']/../form/select",
+    "selectedCountry" : "//*[text()='AR']"
+  }
+}

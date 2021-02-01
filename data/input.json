@@ -1,0 +1,14 @@
+{
+  "loginPagePositive": {
+    "username": "tomsmith",
+    "password": "SuperSecretPassword!"
+  },
+  "loginPageNegative" : {
+    "username" : "qwerty",
+    "password" : "12345"
+  },
+  "phoneInput" : {
+    "phoneIf" : "5555555555",
+    "selectedCountry" : "Argentina +54"
+  }
+}
