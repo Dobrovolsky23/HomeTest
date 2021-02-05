@@ -18,6 +18,7 @@ describe('Login Page positive', function () {
 
   it('should verify that user is able to close pop up message', function () {
     $(loginPageSelectors.closeBtn).click();
+    $(loginPageSelectors.messageSuccess).waitForDisplayed({reverse : true})
     expect($(loginPageSelectors.messageSuccess).isDisplayed()).to.be.false;
   });
 
